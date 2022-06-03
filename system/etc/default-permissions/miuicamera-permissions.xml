@@ -1,19 +1,19 @@
-<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
-<exceptions>
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
 
     <exception package="com.android.camera">
         <!-- Camera -->
-        <permission name="android.permission.CAMERA" fixed="false"/>
+        <permission name="android.permission.CAMERA" />
         <!-- Location -->
-        <permission name="android.permission.ACCESS_FINE_LOCATION" fixed="false"/>
-        <permission name="android.permission.ACCESS_COARSE_LOCATION" fixed="false"/>
+        <permission name="android.permission.ACCESS_FINE_LOCATION" />
+        <permission name="android.permission.ACCESS_COARSE_LOCATION" />
         <!-- Microphone -->
-        <permission name="android.permission.RECORD_AUDIO" fixed="true"/>
+        <permission name="android.permission.RECORD_AUDIO" />
         <!-- Phone -->
-        <permission name="android.permission.READ_PHONE_STATE" fixed="false"/>
+        <permission name="android.permission.READ_PHONE_STATE" />
         <!-- Storage -->
-        <permission name="android.permission.READ_EXTERNAL_STORAGE" fixed="true"/>
-        <permission name="android.permission.WRITE_EXTERNAL_STORAGE" fixed="true"/>
-    </exception>
-
+        <permission name="android.permission.READ_EXTERNAL_STORAGE" />
+        <permission name="android.permission.WRITE_EXTERNAL_STORAGE" />
+        <permission name="android.permission.ACCESS_MEDIA_LOCATION" />
+        <permission name="android.permission.WRITE_MEDIA_STORAGE" />
 </exceptions>
